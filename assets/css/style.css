@@ -15,6 +15,10 @@ body {
   color: #444444;
 }
 
+p {
+  font-size: 16px !important;
+}
+
 a {
   color: #4154f1;
   text-decoration: none;
@@ -67,7 +71,7 @@ section {
 
 @media (max-width: 768px) {
   .section-header p {
-    font-size: 28px;
+    font-size: 14px;
     line-height: 32px;
   }
   .col-xs-1 {
@@ -552,13 +556,41 @@ section {
     text-align: center;
   }
   .hero h1 {
-    font-size: 32px;
+    font-size: 16px;
+    text-align: right;
+    line-height: 1.5;
   }
   .hero h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
+
+  .hero h4 {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .hero p {
+    font-size: 14px;
+    text-align: right;
+  }
+
   .hero .hero-img img {
     width: 100%;
+  }
+
+  .hero .container {
+    padding: 0 30px;
+  }
+  .service-content {
+    padding: 0 30px;
+  }
+
+  .footer .container {
+    padding: 0 30px;
+  }
+
+  .header .logo {
+    margin-right: 90px;
   }
 }
 
@@ -1285,7 +1317,7 @@ section {
 
 .footer .footer-top .footer-links {
   margin-bottom: 30px;
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .footer .footer-top .footer-links ul {
