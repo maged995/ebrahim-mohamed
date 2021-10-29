@@ -220,12 +220,12 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 0;
 }
 
 .header.header-scrolled {
   background: #fff;
-  padding: 15px 0;
+  padding: 0 !important;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
@@ -237,7 +237,7 @@ section {
 .logo img {
   max-height: 80px;
   margin-right: 350px;
-  margin-top: -20px;
+  margin-top: 0;
 }
 
 /*--------------------------------------------------------------
@@ -268,7 +268,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 0 0 0 30px;
   font-family: "Cairo", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -591,6 +591,22 @@ section {
 
   .header .logo {
     margin-right: 90px;
+  }
+
+  .portfolio ul li {
+    font-size: 8px !important;
+    margin: 0 !important;
+    padding: 5px 8px !important;
+  }
+
+  .portfolio ul {
+    padding: 0 !important;
+  }
+
+  #quote-carousel .carousel-indicators li,
+  #quote-carousel .carousel-indicators .active {
+    width: 60px !important;
+    height: 60px !important;
   }
 }
 
@@ -1054,8 +1070,8 @@ section {
   margin-right: -19px;
 }
 #quote-carousel .carousel-indicators li {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   cursor: pointer;
   border: 1px solid #ccc;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -1064,10 +1080,11 @@ section {
   overflow: hidden;
   transition: all 0.4s ease-in;
   vertical-align: middle;
+  margin-right: 15px;
 }
 #quote-carousel .carousel-indicators .active {
-  width: 128px;
-  height: 128px;
+  width: 80px;
+  height: 80px;
   opacity: 1;
   transition: all 0.2s;
 }
