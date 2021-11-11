@@ -1411,8 +1411,12 @@ section {
   width: unset;
   text-align: center;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
+}
+
+.breadcrumb-1 h3 {
+  font-size: 24px;
 }
 
 .breadcrumb-1 a {
@@ -1421,6 +1425,7 @@ section {
 
 .breadcrumb-1 .active {
   color: #29abe2;
+  font-weight: bold;
 }
 
 .btn-1 {
@@ -1438,4 +1443,8 @@ section {
 .btn-1 a {
   color: #fff;
   font-size: 14px;
+}
+
+.portfolio-wrap h5 {
+  font-size: 18px;
 }
